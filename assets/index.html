@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FinanBoost</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+  <header class="mainnav">
+    <h1>
+      <a href="#" class="titulo">Olá Deusdeth</a>
+    </h1>
+    <section class="perfil">
+      <img
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAApVJREFUSEvllk2ITmEUx39/8r3xuZqdhY185LuUj4lMbIiFkRWlQcJYSCnFwkIGCyRlQ6SUJKYhUWbjq8hHrMlCQ1IU4bhH5607d+47975z1Sw8u3vv85zfOec553+uGKSlQeLSMNjMhgLTgbnh9EPguaRfjQTRENjM1gIngKYM5C2wQ9K1svDSYDM7BuwqMNwhaU8ZeCmwmS0HboXBR8A+4Ek8zwYOp1LfLOluEbws+DawzO8SmCPpR9qwmQ0HHgPTgE5JKyuDzWwI8BUYCWyXdCrPqJltA04CX5I6GCfpd3/wwojNzCv4WRhZJelmHbBHeSO+TZX0qirYK/hdGNkg6VIdcCtwMb41SXpfCeyHzewjMB6oW7VmdjRJczvQI2lS5TsO8CFgP+AisUbS9UxxrQauAC4uByQd/FdgL6yXwOQw2B1VPCwqeVG8f+Oqlq36PCcKi6t2KIrsQoDybHmrtUpyBwtXaXCk3FtrK7ACWJCk/2dE3gmcKWqhtDcNgQvDaGBDKbCZTQAWJqo035UrkcgRGcb3iPxBonDdkj4V+dAv2MzGAkeAzVB6hJqnHdgryVUsd9UFm9k64DQwMXXyW6hYL60GXKtnAKNTez8AbZKulq5qM/Mh72mrOXYOOA68kOQR9Vlm5nt9SOwENsUG3ztPkg+QXqtPxDFpvDWmAB5hi6T7RXeW/m5mixOga7pn4LVnI9vbeeAOYHcY2iLpbCPQVN+3xVX5qz5Smwf2KEcBXZJaBgJNwe8AzZ45SWPq9nG0TU9sWC/pckXwRuB82PAZ/blmr1fEZjYr9Uvjd9tVEZye0a7hXjt/Vxa8BKj9Ly2VdK8iuK69LNgFY2bAnqZTMxAHQoBy7ZWSzIFAi878f+A/GjbbHyxRBpcAAAAASUVORK5CYII=" />
+    </section>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="saldo">
+        <h2>Saldo</h2>
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABJRJREFUSEvFl11sFFUUx/9nlu0WaUVFI4mmEQk+GOMDSlCkLYmJicUUErVoUHwyGhKL3Z3tzF2qGQ3MDN3tVonEqJEHPzCUYoKJWPyIviC++OQHH7JVoVqIaERoy7KdPe7dvUv2Y7Ztok3v0+y9557f+brn3iXM0aA54qIKvNOyru60rH9m26AysOu6TfOYvyGgKyLE3tmEXwEPDAwETqVSPwK4DUCWgMciQuybLXiZxwnH2QjgHQAagEliXheJxQ7OBrwqx32O8ygDHwAIAMhoQHtYiKFdltUwXle3gYhWgWgJM0vjJgCcI+BPACcmid43TfP8TAz1req4664j5kEA8wCkGdhLQAeA+mmUZgAMakTbw6b5w1SyNY9Tn223M9EB381EfxMwzHIATQTcUCHHAN72NC1sGMYFPx2+YMdxrg0CMrf3VGzaPUn0kmmap0rnXdddGMxmW6Fp7cy8CUBQrhNw+EI6/YBlWeOV8CpwPB5fgEzmKyK6WwozcFAD1jBwFYCLRKQz8/0AWlToj4LoZd00P5Hyvb29izXP2w3gQbV/aCydXmtZVrYUXg12nEECHlZCb+pCPJNw3dXEfEjB/SI3imDwTl3Xz+VhzJTcseMNZn5aCffrQoRrghOOEwGQKBE4qwGrw0KcTLhuC5gP+RUYAa9FhHiuVLHsC6dTqS8ZaM7PE7UVo6LSUBCXea0DRoohzRnQoBSNBIDWLiGGpedgHgKwoMxt5hQRCWZeosdivcU1FfbvAFwP4JeL6fQyy7Imy8AJx9kMYJealEfn9lxpWkrJaXhes97T82tNeEHwvC7ENaVGJRzn8Vw33JOfY96kx2LvloHjtt1JRK/m14k2Rk1zT8J1Y2DerkL1s0fUYhjGSNy27801kk9LolJkndWFWFwBfhbA64Vo0+aIaRa+i0LqCJ1QYTmmhULLw+HwRNxxDAJcZXEqwNzctXXrqC+c6EPdNIuFWaxwqbMRzH9p9fU3S51lYPkj4bpbwPxK3mtgf1SIR/Lz5UX3UzYQaOnu7j6j4J8Vc07MkUgslpR7ZIudCIU+B7Cy0tsqsGVZdY319UeYebla3BkRYouCdwHIKwVwvI65uTMW+yNu2yuJ6AsFzzDQNpZOf90QCkmDVin5IxHTvI+IZEcrZK40H/I7uW3bTdlA4NtcXm5UAgcyRJ2yW8Vt+3ki6lcRORpibi2BS1AjAeMMyD69Quke1TxvRbin57dSlm/L7HecWzxAFs8yJXwZzG9RIPBeNpttI+AFNf/9ZeY184kWesCLAJ6qcOSkp2kPGYZxvNLBmpeEbduLgkTJ3GUge+9U4wyAskq+Es7Cff6R3+ZpH3syh5psDsBadU1OZcQEA/sIkGdXXhSTTLQ+apofz9jjqtwnk9d5ly49QUS3yiPHwCIA84lIPpOGs9nsYQSDA9FodKzPttuYSHoqHxMeARsiQuyfNsfThHZGywnbXg8i+ZiQ8Ko33LShnhGlhpB6RsnXquQca1q69I6Ojg7P9zj9F5Df3oRtPwmiXk/T7jIM4/ea5/j/Bkt9fn8SZjXUUzkxZ+B/ATXhyC4lvCITAAAAAElFTkSuQmCC" />
+        <p>R$ 15,00</p>
+      </section>
+      
+    </div>
+
+    <div class="container2">
+      <section class="recgas">
+        <div class="receitas">
+          <h2>Receitas</h2>
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABElJREFUSEvFl11oHFUUx//nznYX2hiKCqIFTSG2VRTyEohVUOmDKFI/wGCRig+iWFATdzYzd5LQa+ju7GY3SVsf6seDKEVsoPZBtIKCIoLSKJaqVDGx8SsqKio2yH7MHHuns3U/k6kJdJ5m755zfufce865ZwgX6KELxMV5gaenp4352dk+QdRFzJdrp30hFuD7p67q7j7W39/vRQ0kEnh8fPxq4fsSwD1gXt/G+O8AjhiAOyjlN8s5sCRYKbW2Ix7PgmgXAGM5Y+H/JQbyi8XimFKq1E6nLXjKdbs84HUA11UNAjhMRG95nndiXbk8WwJi5TVrugwhepj5dhDdCyAWyDMfizFvHxge/qUVvCV4Kpe7xvO8D0B0cah01AB2DUo5v1TUk67b7RM9C+ZtodyPnhB9lmX90KjXBN6bTl9WEeITABsCx4GnU1KqiNsMZqZCLjdOzGaofxKxWG8qlVqstdEELmQyh0DUHwgR7TZte6wROqXU+koi0aPXY8Xi8UGl/myUKbjuXgBPhuv7TCkH2oIns9nrfeYTocAbppR3too077q3EPBuGNGtKSnfa5TTpffd3Nz7ALYCKHtCdFmWtVCVq4s477ovEfAggEVPiE21grWGo4C1fC6X22z4/udBwjFnTMcZbgIrpeIdicRvAC5i5gMpx9El1PKJCtbKhWz2CJjvBjBvSrmxCTyRTm9jId4Jz/YO07aPrgrYdR8+k6gvaFu+YWwaGhr6OkifqvEJ132IgRf1b0+IDdVtrk2kc44w9xDRVHDGzIMgOl7rZG3CjafTPUKITwNZou0p29a94T9w3nVTBIzrxdPFYqLadWq3td0ONK4zcC7htONeIvFHuJMDpm3vqwMXXDepjySMuNOyrL/1+0rB+5XqLCUSfwUw5mTScSYbwTsAvBKCt1iW9ZV+X+lWFzKZa0H0RQi7PynlofozzuX62Pc/DM9iR8q2X12V5MpkdoLoZW1LCNH7lGV9XAfWrW4im/0VwCUMHExJuXNVwK47DeA+AD8nbfsKIuI6cFBzrvscgEcA/EOetzk5MvJ9K3jUOg4biO6EcTA/YzrOE1V7dZ0rFDwZZDvz20kpb6t6WOtAFHDYMnUrvUmXMFcq3anR0VMtwWHUBwE8EAgw7zEdZ7Qx6kiXRCazH0SPh7rPm1I+Wmun+XYqFC5FuTwDoCuEj5mOsztqDSulREcioUumejN9WQa2SinP1nL4tBwEghmrUvmodhCA5z1mjox8u5QDeoCo+P6BMzfXzaHcggHc2GqAOJ/RpwjgNSJ6E8BnvmHMViqVuOH7Gw3D6OWzU4cefaqz2Yzh+3cNDg//1MrZJYe9fD6/TnjeHmbW2SgibncJzNnTpVL6fw17tZBCJrMFRHYw3gKdbRzQ4+1heF5muSNpquPlIlJKxdbG4zcIoisbBvq5xVJpRinlL2djyeSKqrwSuUhfEisBtNP9Fzk9/S5JAFW4AAAAAElFTkSuQmCC" />
+          <p>R$ 15 , 00</p>
+        </div>
+        <div class="gastos">
+          <h2>Gastos</h2>
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABElJREFUSEvFl11oHFUUx//nznYX2hiKCqIFTSG2VRTyEohVUOmDKFI/wGCRig+iWFATdzYzd5LQa+ju7GY3SVsf6seDKEVsoPZBtIKCIoLSKJaqVDGx8SsqKio2yH7MHHuns3U/k6kJdJ5m755zfufce865ZwgX6KELxMV5gaenp4352dk+QdRFzJdrp30hFuD7p67q7j7W39/vRQ0kEnh8fPxq4fsSwD1gXt/G+O8AjhiAOyjlN8s5sCRYKbW2Ix7PgmgXAGM5Y+H/JQbyi8XimFKq1E6nLXjKdbs84HUA11UNAjhMRG95nndiXbk8WwJi5TVrugwhepj5dhDdCyAWyDMfizFvHxge/qUVvCV4Kpe7xvO8D0B0cah01AB2DUo5v1TUk67b7RM9C+ZtodyPnhB9lmX90KjXBN6bTl9WEeITABsCx4GnU1KqiNsMZqZCLjdOzGaofxKxWG8qlVqstdEELmQyh0DUHwgR7TZte6wROqXU+koi0aPXY8Xi8UGl/myUKbjuXgBPhuv7TCkH2oIns9nrfeYTocAbppR3too077q3EPBuGNGtKSnfa5TTpffd3Nz7ALYCKHtCdFmWtVCVq4s477ovEfAggEVPiE21grWGo4C1fC6X22z4/udBwjFnTMcZbgIrpeIdicRvAC5i5gMpx9El1PKJCtbKhWz2CJjvBjBvSrmxCTyRTm9jId4Jz/YO07aPrgrYdR8+k6gvaFu+YWwaGhr6OkifqvEJ132IgRf1b0+IDdVtrk2kc44w9xDRVHDGzIMgOl7rZG3CjafTPUKITwNZou0p29a94T9w3nVTBIzrxdPFYqLadWq3td0ONK4zcC7htONeIvFHuJMDpm3vqwMXXDepjySMuNOyrL/1+0rB+5XqLCUSfwUw5mTScSYbwTsAvBKCt1iW9ZV+X+lWFzKZa0H0RQi7PynlofozzuX62Pc/DM9iR8q2X12V5MpkdoLoZW1LCNH7lGV9XAfWrW4im/0VwCUMHExJuXNVwK47DeA+AD8nbfsKIuI6cFBzrvscgEcA/EOetzk5MvJ9K3jUOg4biO6EcTA/YzrOE1V7dZ0rFDwZZDvz20kpb6t6WOtAFHDYMnUrvUmXMFcq3anR0VMtwWHUBwE8EAgw7zEdZ7Qx6kiXRCazH0SPh7rPm1I+Wmun+XYqFC5FuTwDoCuEj5mOsztqDSulREcioUumejN9WQa2SinP1nL4tBwEghmrUvmodhCA5z1mjox8u5QDeoCo+P6BMzfXzaHcggHc2GqAOJ/RpwjgNSJ6E8BnvmHMViqVuOH7Gw3D6OWzU4cefaqz2Yzh+3cNDg//1MrZJYe9fD6/TnjeHmbW2SgibncJzNnTpVL6fw17tZBCJrMFRHYw3gKdbRzQ4+1heF5muSNpquPlIlJKxdbG4zcIoisbBvq5xVJpRinlL2djyeSKqrwSuUhfEisBtNP9Fzk9/S5JAFW4AAAAAElFTkSuQmCC" />
+          <p>R$ 15 , 00</p>
+        </div>
+      </section>
+    </div>
+
+    <div class="container3">
+      <div class="row gx-5">
+        <div class="col">
+          <div class="borda3">
+            <div class="row">
+              <div class="container">
+              </div>
+              <img class="imagem" src="../assets/images/pie-chart-icon-free-png.webp" alt="">
+              <div class="col-4">
+                <p class="categoria" style="float: 
+                right; text-align: left;">🔸Casa <br>
+                  🔸Restaurante<br>
+                  🔸Eletrônicos<br>
+                  🔸Faculdade</p>
+              </div>
+              <div class="col-4">
+                <p class="categoria" style="float: center; text-align:right">R$15,00 <br>
+                  R$15,00<br>
+                  R$15,00<br>
+                  R$15,00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="rodape">
+      <a class="finanboost" href="# ">FINANBOOST</a>
+      <section class="position-relative bottom-0 start-50 translate-middle-x">
+        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_d_21_219)">
+            <path
+              d="M21.9591 9.68865C21.9591 9.51737 21.8911 9.3531 21.77 9.23198C21.6489 9.11086 21.4846 9.04282 21.3133 9.04282C21.142 9.04282 20.9778 9.11086 20.8566 9.23198C20.7355 9.3531 20.6675 9.51737 20.6675 9.68865H21.9591ZM3.87582 9.68865C3.87582 9.51737 3.80777 9.3531 3.68666 9.23198C3.56554 9.11086 3.40127 9.04282 3.22998 9.04282C3.0587 9.04282 2.89443 9.11086 2.77331 9.23198C2.65219 9.3531 2.58415 9.51737 2.58415 9.68865H3.87582ZM23.4394 12.7292C23.5607 12.8505 23.7251 12.9186 23.8966 12.9186C24.0681 12.9186 24.2326 12.8505 24.3539 12.7292C24.4752 12.608 24.5433 12.4435 24.5433 12.272C24.5433 12.1005 24.4752 11.936 24.3539 11.8147L23.4394 12.7292ZM12.2716 0.646988L12.7289 0.189738C12.6689 0.129594 12.5976 0.0818758 12.5192 0.0493175C12.4407 0.0167592 12.3566 0 12.2716 0C12.1867 0 12.1026 0.0167592 12.0241 0.0493175C11.9457 0.0818758 11.8744 0.129594 11.8144 0.189738L12.2716 0.646988ZM0.189399 11.8147C0.0681288 11.936 0 12.1005 0 12.272C0 12.4435 0.0681288 12.608 0.189399 12.7292C0.310669 12.8505 0.475147 12.9186 0.646649 12.9186C0.818151 12.9186 0.982629 12.8505 1.1039 12.7292L0.189399 11.8147ZM5.81332 24.5428H18.73V23.2512H5.81332V24.5428ZM21.9591 21.3137V9.68865H20.6675V21.3137H21.9591ZM3.87582 21.3137V9.68865H2.58415V21.3137H3.87582ZM24.3539 11.8147L12.7289 0.189738L11.8144 1.10424L23.4394 12.7292L24.3539 11.8147ZM11.8144 0.189738L0.189399 11.8147L1.1039 12.7292L12.7289 1.10424L11.8144 0.189738ZM18.73 24.5428C19.5864 24.5428 20.4078 24.2026 21.0133 23.597C21.6189 22.9914 21.9591 22.1701 21.9591 21.3137H20.6675C20.6675 21.8275 20.4634 22.3203 20.1 22.6837C19.7366 23.047 19.2438 23.2512 18.73 23.2512V24.5428ZM5.81332 23.2512C5.29946 23.2512 4.80665 23.047 4.4433 22.6837C4.07994 22.3203 3.87582 21.8275 3.87582 21.3137H2.58415C2.58415 22.1701 2.92436 22.9914 3.52995 23.597C4.13554 24.2026 4.95689 24.5428 5.81332 24.5428V23.2512Z"
+              fill="white" />
+          </g>
+          <defs>
+            <filter id="filter0_d_21_219" x="-4" y="0" width="32.5433" height="32.5428" filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha" />
+              <feOffset dy="4" />
+              <feGaussianBlur stdDeviation="2" />
+              <feComposite in2="hardAlpha" operator="out" />
+              <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_21_219" />
+              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_21_219" result="shape" />
+            </filter>
+          </defs>
+        </svg>
+      </section>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,271 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+
+}
+
+.mainnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F36100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 1rem;
+    height: 6rem;
+
+
+
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+
+
+.titulo {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.imagem,
+.imagem * {
+    box-sizing: border-box;
+}
+
+.imagem {
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    object-fit: contain;
+  
+}
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f36100;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5rem;
+
+}
+
+.finanboost,
+.finanboost * {
+    box-sizing: border-box;
+}
+
+.finanboost {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Poppins-Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    width: 103px;
+    height: 25px;
+    text-decoration: none;
+    margin-left: 1rem;
+    position: absolute;
+}
+
+
+.saldo {
+    border-radius: 0.625rem;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 85%;
+    height: 6.5rem;
+    ;
+
+}
+
+.saldo h2 {
+    color: rgba(110, 106, 106, 0.50);
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.saldo p {
+    color: #70F484;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 2rem;
+
+
+}
+
+.saldo img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 7rem;
+    position: absolute;
+    fill: rgba(0, 0, 0, 0.50);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.container2 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+
+.container3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+
+}
+
+.borda3 {
+    border-radius: 0.625rem;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 98%;
+    height: 8.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem {
+    width: 4.5625rem;
+    height: 4.6875rem;
+    flex-shrink: 0;
+    margin-right: 2.5rem;
+    margin-top: 1rem;
+}
+
+.transacoes {
+    border-radius: 0.625rem;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 98%;
+    height: 8.5rem;
+}
+
+.elementos {
+    color: #6E6A6A;
+    font-weight: 400;
+    word-wrap: break-word;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+
+}
+
+
+main {
+    background: #F1F9FE;
+}
+
+.recgas {
+    border-radius: 0.625rem;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 98%;
+    height: 8.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.receitas {
+    color: #6E6A6A;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: auto;
+}
+
+.receitas img {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    margin-left: 5.5rem;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.24);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.receitas p {
+    color: #65B2FF;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.gastos {
+    color: #6E6A6A;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: auto;
+}
+
+.gastos img {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    margin-left: 5.5rem;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.24);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.gastos p {
+    color: #F36100;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
